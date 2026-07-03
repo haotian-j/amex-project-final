@@ -1,0 +1,9 @@
+{
+  "test_customers": 83053,
+  "test_rows": 1000003,
+  "features": 968,
+  "target_rate": 0.2684,
+  "disjoint_from_train": true,
+  "seed": 2026,
+  "raw_rows_file": "/Users/hjiang/school/STATGR5241/amex-default-prediction-project/data/interim/test_1m_rows.parquet"
+}

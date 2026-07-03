@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+pyarrow
+matplotlib
+seaborn
+scikit-learn
+xgboost
+lightgbm
+streamlit
+# xgboost/lightgbm may need an OpenMP runtime.
+# macOS: brew install libomp
+# Windows: install the Microsoft Visual C++ Redistributable if imports fail.

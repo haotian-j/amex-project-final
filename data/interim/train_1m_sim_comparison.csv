@@ -1,0 +1,9 @@
+,non_simulated,simulated
+rows,1000012.0,1000012.0
+columns,189.0,189.0
+total_NaN_cells,28097397.0,28112389.0
+overall_NaN_rate,0.14866,0.14874
+S_2_NaT,0.0,5000.0
+B_2_NaN (injected-miss col),373.0,10365.0
+B_1_max (outlier col),1.011,1.14
+D_63_levels (case col),6.0,6.0

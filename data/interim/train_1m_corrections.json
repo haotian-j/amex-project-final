@@ -1,0 +1,32 @@
+{
+  "rows_out": 1000012,
+  "columns": 189,
+  "minus1_kept_as_category": [
+    "D_64",
+    "D_117",
+    "D_126"
+  ],
+  "categorical_formatting_normalized": [
+    "D_66",
+    "D_68",
+    "B_30",
+    "B_38",
+    "D_114",
+    "D_116",
+    "D_117",
+    "D_120",
+    "D_126"
+  ],
+  "dropped_near_constant": [
+    "D_87"
+  ],
+  "simulated_corruptions_injected": {
+    "mixed/invalid dates": 10000,
+    "categorical case/space": 10000,
+    "numbers stored as text": 5000,
+    "injected missingness": 10000,
+    "outlier spikes": 5000,
+    "duplicate rows": 5000
+  },
+  "output": "../data/interim/train_1m_rows_clean.parquet"
+}

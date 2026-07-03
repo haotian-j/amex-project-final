@@ -1,5 +1,6 @@
 # Local data artifacts
 data/raw/
+data/interim/*.parquet
 app_outputs/
 models/
 

@@ -1,0 +1,59 @@
+{
+  "light_mode": false,
+  "customers": 83121,
+  "total_features": 968,
+  "numeric_base_kept": 166,
+  "redundant_dropped": [
+    "B_23",
+    "B_37",
+    "D_104",
+    "D_119",
+    "D_141",
+    "D_143",
+    "D_74",
+    "R_24",
+    "S_22"
+  ],
+  "numeric_aggregate_cols": 830,
+  "categorical_nunique_cols": 12,
+  "categorical_onehot_cols": 56,
+  "missing_flag_cols": 37,
+  "derived_cols": 30,
+  "derived_top_features": [
+    "P_2",
+    "D_48",
+    "B_9",
+    "D_61",
+    "B_18",
+    "D_44",
+    "B_2",
+    "D_75",
+    "D_55",
+    "B_33",
+    "D_58",
+    "B_7",
+    "R_1",
+    "S_7"
+  ],
+  "derived_core_n": 12,
+  "derived_required_groups": [
+    "P",
+    "B",
+    "D",
+    "R",
+    "S"
+  ],
+  "derived_coverage_additions": [
+    {
+      "feature_group": "R",
+      "added_feature": "R_1"
+    },
+    {
+      "feature_group": "S",
+      "added_feature": "S_7"
+    }
+  ],
+  "derived_top_feature_rule": "top 12 numeric features by abs point-biserial correlation with target, then add the best-ranked feature from any missing P/B/D/R/S family; AUC used as tie-breaker/sanity check",
+  "target_rate": 0.2696,
+  "output": "../data/interim/train_features.parquet"
+}

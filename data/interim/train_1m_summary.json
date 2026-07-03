@@ -1,0 +1,14 @@
+{
+  "target_rows_requested": 1000012,
+  "rows_written": 1000012,
+  "selected_customers": 83121,
+  "full_label_customers": 458913,
+  "full_target_rate": 0.2589336105100531,
+  "sample_target_rate_customer_level": 0.2696069585303353,
+  "sample_target_rate_row_weighted": 0.25893689275728693,
+  "sample_row_count_min": 1,
+  "sample_row_count_median": 13.0,
+  "sample_row_count_max": 13,
+  "rows_parquet": "data/interim/train_1m_rows.parquet",
+  "labels_parquet": "data/interim/train_1m_labels.parquet"
+}

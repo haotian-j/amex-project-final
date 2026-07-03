@@ -1,0 +1,13 @@
+data/
+
+env/
+.venv/
+venv/
+timi_files/env/
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+.DS_Store
+Thumbs.db

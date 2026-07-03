@@ -1,0 +1,13 @@
+model,family,artifact_path,interpretation,train_rows,features
+regularized_lr,linear,models/supervised/regularized_lr.joblib,standardized coefficients,66496,968
+logreg_l2,linear,models/supervised/logreg_l2.joblib,standardized coefficients,66496,968
+linear_svm,svm,models/supervised/linear_svm.joblib,linear margin coefficients + permutation,66496,968
+decision_tree,single_tree,models/supervised/decision_tree.joblib,tree structure + impurity importance,66496,968
+random_forest,tree_ensemble,models/supervised/random_forest.joblib,mean impurity importance,66496,968
+histgb,tree_ensemble,models/supervised/histgb.joblib,permutation importance,66496,968
+xgboost,tree_ensemble,models/supervised/xgboost.joblib,gain/split importance,66496,968
+lgbm_tuned,tree_ensemble,models/supervised/lgbm_tuned.joblib,split importance,66496,968
+gaussian_nb,bayesian,models/supervised/gaussian_nb.joblib,class-conditional mean differences,66496,968
+lda,linear_generative,models/supervised/lda.joblib,linear coefficients,66496,968
+mlp,neural_net,models/supervised/mlp.joblib,first-layer weights + permutation,66496,968
+final_model,lgbm_tuned,models/supervised/final_model.joblib,selected final estimator from this notebook,66496,968
